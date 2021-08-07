@@ -17,6 +17,5 @@
     </style>
 
     <style name="Theme.SwipeableTabs.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
     <style name="Theme.SwipeableTabs.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
