@@ -19,11 +19,11 @@ import com.sudheer.swipeabletabs.view.fragments.Profile;
 
 public class MainActivity extends AppCompatActivity {
 
-    ViewPager viewPager;
-    TabLayout tabLayout;
-    Home blankFragment;
-    Favorites blankFragment2;
-    Profile blankFragment3;
+    private ViewPager viewPager;
+    private TabLayout tabLayout;
+    private Home blankFragment;
+    private Favorites blankFragment2;
+    private Profile blankFragment3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
 
     class MyPagerAdapter extends FragmentPagerAdapter {
 
-        String[] fragmentNames = {"first", "second", "third"};
+        String[] fragmentNames = {"Home", "Favorite", "Profile"};
 
         public MyPagerAdapter(FragmentManager fm) {
             super(fm);
